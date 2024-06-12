@@ -13,6 +13,7 @@ from .datastores import fetch_or_initialise_datastores
 from .query_pipeline import configure_query_pipeline
 
 
+# this is a method to 
 def _add_chunk_args(parser: ArgumentParser) -> ArgumentParser:
     parser.add_argument(
         "--chunk-size",
